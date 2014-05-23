@@ -1,7 +1,7 @@
 Periodic table of HTML 5 elements
 =================================
 
-Fully credit to Josh Duck for origionally creating the HTML 5 periodic table of elements. 
+Full credit to Josh Duck for origionally creating the HTML 5 periodic table of elements. 
 
 I'm not sure why Josh removed his version from his website. I think it was useful so this is my recreation of it.
 
