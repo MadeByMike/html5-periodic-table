@@ -1,6 +1,10 @@
 Periodic table of HTML 5 elements
 =================================
 
-There have been a few different versions of this and it is not my original idea. This version is made with css only, so modern browsers please.
+Full credit to Josh Duck for originally creating the HTML 5 periodic table of elements. 
+
+I'm not sure why Josh removed his version from his website. I thought it was useful, so this is my recreation of it.
+
+This version is made with css only, so modern browsers please.
 
 <a href="http://madebymike.com.au/html5-periodic-table">http://madebymike.com.au/html5-periodic-table</a>

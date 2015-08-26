@@ -4,13 +4,7 @@
 html{ height: 100%; line-height: 1.5; font-size: 62.5%; /* =10px */ font-family:  Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;}
 
 body{
-	background: #7d7e7d; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover,  #EAEAEA 0%, #222 100%); /* FF3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#EAEAEA), color-stop(100%,#222)); /* Chrome,Safari4+ */
-	background: -webkit-radial-gradient(center, ellipse cover,  #EAEAEA 0%,#222 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-radial-gradient(center, ellipse cover,  #EAEAEA 0%,#222 100%); /* Opera 12+ */
-	background: -ms-radial-gradient(center, ellipse cover,  #EAEAEA 0%,#222 100%); /* IE10+ */
-	background: radial-gradient(ellipse at center,  #EAEAEA 0%,#222 100%); /* W3C */
+	background-color: steelblue;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EAEAEA', endColorstr='#222',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -122,8 +116,8 @@ body{
 	margin: 0 .2rem;
 }
 .swatch{ 
-	width: 1rem;
-	height: 1rem;
+	width: 10px;
+	height: 10px;
 	border: solid 1px #777;
 	display: inline-block;
 }
@@ -170,12 +164,10 @@ body{
 h1{
 	text-align: center;
 	font-size: 4rem;
-	color: #FFF;
 }
 .by{
 	text-align: center;
 	font-size: 1.8rem;
-	color: #FFF;
 }
 .by a{
 	color: #CCC;
