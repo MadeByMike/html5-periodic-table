@@ -1,1020 +1,989 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/styles.css">
-    <title>Periodic table of HTML 5 elements</title>
-  </head>
-  <body>
-    <div id="container">
-      <h1>Periodic table of HTML 5 elements</h1>
-      <div id="periodic-table">
-        <div class="row">
-          <span class="element root"><a href="#html">html</a></span>
-          <!-- Yes, I know, this sucks -->
-          <span class="span-15"></span>
-          <span class="element table"><a href="#col">col</a></span>
-          <span class="element table"><a href="#table">table</a></span>
-        </div>
-        <div class="row">
-          <span class="element meta"><a href="#head">head</a></span>
-          <span class="element text"><a href="#span">span</a></span>
-          <span class="span-9"></span>
-          <span class="element form"><a href="#fieldset">fieldset</a></span>
-          <span class="element form"><a href="#form">form</a></span>
-          <span class="element doc"><a href="#body">body</a></span>
-          <span class="element doc"><a href="#h1">h1</a></span>
-          <span class="element doc"><a href="#section">section</a></span>
-          <span class="element table"><a href="#colgroup">colgroup</a></span>
-          <span class="element table"><a href="#tr">tr</a></span>
-        </div>
-        <div class="row">
-          <span class="element meta"><a href="#title">title</a></span>
-          <span class="element text"><a href="#a">a</a></span>
-          <span class="span-9"> </span>
-          <span class="element form"><a href="#meter">meter</a></span>
-          <span class="element form"><a href="#select">select</a></span>
-          <span class="element doc"><a href="#aside">aside</a></span>
-          <span class="element doc"><a href="#h2">h2</a></span>
-          <span class="element doc"><a href="#header">header</a></span>
-          <span class="element table"><a href="#caption">caption</a></span>
-          <span class="element table"><a href="#td">td</a></span>
-        </div>
-        <div class="row">
-          <span class="element meta"><a href="#meta">meta</a></span>
-          <span class="element text"><a href="#rt">rt</a></span>
-          <span class="element text"><a href="#dfn">dfn</a></span>
-          <span class="element text"><a href="#em">em</a></span>
-          <span class="element text"><a href="#i">i</a></span>
-          <span class="element text"><a href="#small">small</a></span>
-          <span class="element text"><a href="#ins">ins</a></span>
-          <span class="element group"><a href="#hr">hr</a></span>
-          <span class="element group"><a href="#p">p</a></span>
-          <span class="element group"><a href="#div">div</a></span>
-          <span class="element group"><a href="#blockquote">blockquote</a></span>
-          <span class="element form"><a href="#legend">legend</a></span>
-          <span class="element form"><a href="#optgroup">optgroup</a></span>
-          <span class="element doc"><a href="#address">address</a></span>
-          <span class="element doc"><a href="#h3">h3</a></span>
-          <span class="element doc"><a href="#nav">nav</a></span>
-          <span class="element interactive"><a href="#menu">menu</a></span>
-          <span class="element table"><a href="#th">th</a></span>
-        </div>
-        <div class="row">
-          <span class="element meta"><a href="#base">base</a></span>
-          <span class="element text"><a href="#rp">rp</a></span>
-          <span class="element text"><a href="#abbr">abbr</a></span>
-          <span class="element text"><a href="#time">time</a></span>
-          <span class="element text"><a href="#b">b</a></span>
-          <span class="element text"><a href="#strong">strong</a></span>
-          <span class="element text"><a href="#del">del</a></span>
-          <span class="element group"><a href="#br">br</a></span>
-          <span class="element group"><a href="#figcaption">figcaption</a></span>
-          <span class="element group"><a href="#ol">ol</a></span>
-          <span class="element group"><a href="#dl">dl</a></span>
-          <span class="element form"><a href="#label">label</a></span>
-          <span class="element form"><a href="#option">option</a></span>
-          <span class="element doc"><a href="#datalist">datalist</a></span>
-          <span class="element doc"><a href="#h4">h4</a></span>
-          <span class="element doc"><a href="#article">article</a></span>
-          <span class="element interactive"><a href="#command">command</a></span>
-          <span class="element table"><a href="#tbody">tbody</a></span>
-        </div>
-        <div class="row">
-          <span class="element meta"><a href="#link">link</a></span>
-          <span class="element meta"><a href="#noscript">noscript</a></span>
-          <span class="element text"><a href="#q">q</a></span>
-          <span class="element text"><a href="#var">var</a></span>
-          <span class="element text"><a href="#sub">sub</a></span>
-          <span class="element text"><a href="#mark">mark</a></span>
-          <span class="element text"><a href="#kbd">kbd</a></span>
-          <span class="element text"><a href="#wbr">wbr</a></span>
-          <span class="element group"><a href="#figure">figure</a></span>
-          <span class="element group"><a href="#ul">ul</a></span>
-          <span class="element group"><a href="#dt">dt</a></span>
-          <span class="element form"><a href="#input">input</a></span>
-          <span class="element form"><a href="#output">output</a></span>
-          <span class="element form"><a href="#keygen">keygen</a></span>
-          <span class="element doc"><a href="#h5">h5</a></span>
-          <span class="element doc"><a href="#footer">footer</a></span>
-          <span class="element interactive"><a href="#summary">summary</a></span>
-          <span class="element table"><a href="#thead">thead</a></span>
-        </div>
-        <div class="row">
-          <span class="element meta"><a href="#style">style</a></span>
-          <span class="element meta"><a href="#script">script</a></span>
-          <span class="element text"><a href="#cite">cite</a></span>
-          <span class="element text"><a href="#samp">samp</a></span>
-          <span class="element text"><a href="#sup">sup</a></span>
-          <span class="element text"><a href="#ruby">ruby</a></span>
-          <span class="element text"><a href="#bdo">bdo</a></span>
-          <span class="element text"><a href="#code">code</a></span>
-          <span class="element group"><a href="#pre">pre</a></span>
-          <span class="element group"><a href="#li">li</a></span>
-          <span class="element group"><a href="#dd">dd</a></span>
-          <span class="element form"><a href="#textarea">textarea</a></span>
-          <span class="element form"><a href="#button">button</a></span>
-          <span class="element form"><a href="#progress">progress</a></span>
-          <span class="element doc"><a href="#h6">h6</a></span>
-          <span class="element doc"><a href="#hgroup">hgroup</a></span>
-          <span class="element interactive"><a href="#details">details</a></span>
-          <span class="element table"><a href="#tfoot">tfoot</a></span>
-        </div>
-      </div>
-      <div id="f-block">
-        <div class="row">
-          <span class="element embed"><a href="#img">img</a></span>
-          <span class="element embed"><a href="#area">area</a></span>
-          <span class="element embed"><a href="#map">map</a></span>
-          <span class="element embed"><a href="#embed">embed</a></span>
-          <span class="element embed"><a href="#object">object</a></span>
-          <span class="element embed"><a href="#param">param</a></span>
-          <span class="element embed"><a href="#source">source</a></span>
-          <span class="element embed"><a href="#iframe">iframe</a></span>
-          <span class="element embed"><a href="#canvas">canvas</a></span>
-          <span class="element embed"><a href="#track*">track*</a></span>
-          <span class="element embed"><a href="#audio">audio</a></span>
-          <span class="element embed"><a href="#video">video</a></span>
-          <span class="element embed"><a href="#device*">device*</a></span>
-        </div>
-      </div>
-    </div>
-    <ul class="key">
-      <li><span class="swatch root"></span> Root element</li>
-      <li><span class="swatch text"></span> Text-level semantics</li>
-      <li><span class="swatch form"></span> Forms</li>
-      <li><span class="swatch table"></span> Tabular data</li>
-      <li><span class="swatch meta"></span> Metadata and scripting</li>
-      <li><span class="swatch group"></span> Grouping content</li>
-      <li><span class="swatch doc"></span> Document sections</li>
-      <li><span class="swatch interactive"></span> Interactive elements</li>
-      <li><span class="swatch embed"></span> Embedding content</li>
-    </ul>
-    <div id="descriptions">
-      <div class="info" id="html">
-        <h3>&lt;html&gt;</h3>
-        <p>Document root element.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/html">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="col">
-        <h3>&lt;col&gt;</h3>
-        <p>Columns in a table.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/col">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="table">
-        <h3>&lt;table&gt;</h3>
-        <p>Table of multi-dimensional data.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/table">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="head">
-        <h3>&lt;head&gt;</h3>
-        <p>First element of the HTML document. Contains document metadata.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/head">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="span">
-        <h3>&lt;span&gt;</h3>
-        <p>Container with no semantic meaning.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/span">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="div">
-        <h3>&lt;div&gt;</h3>
-        <p>Container with no semantic meaning.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/div">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="fieldset">
-        <h3>&lt;fieldset&gt;</h3>
-        <p>Set of form controls grouped by theme.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/fieldset">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="form">
-        <h3>&lt;form&gt;</h3>
-        <p>Form.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/form">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/forms.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="body">
-        <h3>&lt;body&gt;</h3>
-        <p>Document content.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/body">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="h1">
-        <h3>&lt;h1&gt;</h3>
-        <p>Heading for the current section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="section">
-        <h3>&lt;section&gt;</h3>
-        <p>Contains elements grouped by theme, for example a chapter or tab box.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/section">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="colgroup">
-        <h3>&lt;colgroup&gt;</h3>
-        <p>Defines a group of columns in a table.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/colgroup">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="tr">
-        <h3>&lt;tr&gt;</h3>
-        <p>A row of cells.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/tr">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="title">
-        <h3>&lt;title&gt;</h3>
-        <p>Document title.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/title">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="a">
-        <h3>&lt;a&gt;</h3>
-        <p>Hyperlink.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/a">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="pre">
-        <h3>&lt;pre&gt;</h3>
-        <p>Text that is preformatted in the HTML code.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/pre">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="meter">
-        <h3>&lt;meter&gt;</h3>
-        <p>Control for entering a numeric value in a known range.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/meter">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="select">
-        <h3>&lt;select&gt;</h3>
-        <p>Control for selecting from multiple options.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/select">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="aside">
-        <h3>&lt;aside&gt;</h3>
-        <p>Content related to surrounding elements that doesn't belong inline, such as a advertising or quotes.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/aside">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="h2">
-        <h3>&lt;h2&gt;</h3>
-        <p>Heading for the current section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="header">
-        <h3>&lt;header&gt;</h3>
-        <p>Navigation or introductory elements for the current section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/header">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="caption">
-        <h3>&lt;caption&gt;</h3>
-        <p>Title of a table.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/caption">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="td">
-        <h3>&lt;td&gt;</h3>
-        <p>Table cell.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/td">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="meta">
-        <h3>&lt;meta&gt;</h3>
-        <p>Document metadata that can't be represented with other elements.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/meta">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="rt">
-        <h3>&lt;rt&gt;</h3>
-        <p>Annotation of preceding text.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/rt">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="dfn">
-        <h3>&lt;dfn&gt;</h3>
-        <p>Term being defined by the parent section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="em">
-        <h3>&lt;em&gt;</h3>
-        <p>Text that should be emphasised.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="i">
-        <h3>&lt;i&gt;</h3>
-        <p>Text in a alternate voice or mood, such as a technical term.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/i">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="small">
-        <h3>&lt;small&gt;</h3>
-        <p>An aside, such as fine print.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/small">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="ins">
-        <h3>&lt;ins&gt;</h3>
-        <p>Text that has been inserted during document editing.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/ins">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/edits.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="s">
-        <h3>&lt;s&gt;</h3>
-        <p>Text that is outdated or no longer accurate.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/s">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="br">
-        <h3>&lt;br&gt;</h3>
-        <p>Line break.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/br">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="p">
-        <h3>&lt;p&gt;</h3>
-        <p>Paragraph content.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/p">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="blockquote">
-        <h3>&lt;blockquote&gt;</h3>
-        <p>Quote from another source.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/blockquote">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="legend">
-        <h3>&lt;legend&gt;</h3>
-        <p>Define a name for a fieldset.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/legend">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/forms.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="optgroup">
-        <h3>&lt;optgroup&gt;</h3>
-        <p>Group of option.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/optgroup">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-button-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="address">
-        <h3>&lt;address&gt;</h3>
-        <p>Contact information for the current article.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/address">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="h3">
-        <h3>&lt;h3&gt;</h3>
-        <p>Heading for the current section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="nav">
-        <h3>&lt;nav&gt;</h3>
-        <p>Contains a collection of links.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/nav">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="menu">
-        <h3>&lt;menu&gt;</h3>
-        <p>Set of commands.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/menu">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/interactive-elements.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="th">
-        <h3>&lt;th&gt;</h3>
-        <p>Table heading.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/th">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="base">
-        <h3>&lt;base&gt;</h3>
-        <p>Specifies URL which non-absolute URLs are relative to.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/base">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="rp">
-        <h3>&lt;rp&gt;</h3>
-        <p>Contains semantically meaningless markup for browsers that don't understand ruby annotations.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/rp">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="abbr">
-        <h3>&lt;abbr&gt;</h3>
-        <p>Abbreviation or acronym.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/abbr">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="time">
-        <h3>&lt;time&gt;</h3>
-        <p>Time defined in a machine readable format.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/time">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="b">
-        <h3>&lt;b&gt;</h3>
-        <p>Stylistically separated text of equal importance, such as a product name.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/b">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="strong">
-        <h3>&lt;strong&gt;</h3>
-        <p>Text that is important.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="del">
-        <h3>&lt;del&gt;</h3>
-        <p>Text that has been removed during document editing.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/del">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/edits.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="kbd">
-        <h3>&lt;kbd&gt;</h3>
-        <p>Example input (usually keyboard) for a program.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="hr">
-        <h3>&lt;hr&gt;</h3>
-        <p>Thematic break within a paragraph.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/hr">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="ol">
-        <h3>&lt;ol&gt;</h3>
-        <p>Ordered list.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/ol">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="dl">
-        <h3>&lt;dl&gt;</h3>
-        <p>List of term-description pairs.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/dl">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="label">
-        <h3>&lt;label&gt;</h3>
-        <p>Caption for a form control.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/label">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/forms.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="option">
-        <h3>&lt;option&gt;</h3>
-        <p>Single option within a select control.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/option">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-button-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="datalist">
-        <h3>&lt;datalist&gt;</h3>
-        <p>Define sets of options.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/datalist">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-button-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="h4">
-        <h3>&lt;h4&gt;</h3>
-        <p>Heading for the current section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="article">
-        <h3>&lt;article&gt;</h3>
-        <p>Section of the page content, such as a blog or forum post.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/article">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="command">
-        <h3>&lt;command&gt;</h3>
-        <p>Command the user can perform, such as publishing an article.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/command">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/interactive-elements.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="tbody">
-        <h3>&lt;tbody&gt;</h3>
-        <p>Contains rows that hold the table's data.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/tbody">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="link">
-        <h3>&lt;link&gt;</h3>
-        <p>Other resources related to the document.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/link">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="noscript">
-        <h3>&lt;noscript&gt;</h3>
-        <p>Contains elements that are part of the document only if scripting is disabled.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/noscript">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/scripting-1.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="q">
-        <h3>&lt;q&gt;</h3>
-        <p>Quoted text.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/q">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="var">
-        <h3>&lt;var&gt;</h3>
-        <p>Mathematical or programming variable.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="sub">
-        <h3>&lt;sub&gt;</h3>
-        <p>Subscript text.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/sup">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="mark">
-        <h3>&lt;mark&gt;</h3>
-        <p>Text highlighted for referencing elsewhere.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/mark">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="bdi">
-        <h3>&lt;bdi&gt;</h3>
-        <p>Text that is separated from directional formatting of its surroundings.</p>
-        <ul class="links">
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="wbr">
-        <h3>&lt;wbr&gt;</h3>
-        <p>Opportunity for a line break.</p>
-        <ul class="links">
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="figcaption">
-        <h3>&lt;figcaption&gt;</h3>
-        <p>Caption for a figure.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/figcaption">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="ul">
-        <h3>&lt;ul&gt;</h3>
-        <p>Unordered list.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/ul">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="dt">
-        <h3>&lt;dt&gt;</h3>
-        <p>Term which will be described.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/dt">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="input">
-        <h3>&lt;input&gt;</h3>
-        <p>Generic form input.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/input">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-input-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="output">
-        <h3>&lt;output&gt;</h3>
-        <p>Contains the results of a calculation.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/output">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-button-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="keygen">
-        <h3>&lt;keygen&gt;</h3>
-        <p>Generates private-public key pairs.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/keygen">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="h5">
-        <h3>&lt;h5&gt;</h3>
-        <p>Heading for the current section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="footer">
-        <h3>&lt;footer&gt;</h3>
-        <p>Footer of the current section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/footer">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="summary">
-        <h3>&lt;summary&gt;</h3>
-        <p>Caption of a details element.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/summary">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/interactive-elements.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="thead">
-        <h3>&lt;thead&gt;</h3>
-        <p>Contains rows with table headings.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/thead">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="style">
-        <h3>&lt;style&gt;</h3>
-        <p>Styling defined inline data.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/style">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="script">
-        <h3>&lt;script&gt;</h3>
-        <p>Inline or linked client side scripts.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/script">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/scripting-1.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="cite">
-        <h3>&lt;cite&gt;</h3>
-        <p>Title of a referenced piece of work.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="samp">
-        <h3>&lt;samp&gt;</h3>
-        <p>Sample output of a program.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="sup">
-        <h3>&lt;sup&gt;</h3>
-        <p>Superscript text.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/sup">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="ruby">
-        <h3>&lt;ruby&gt;</h3>
-        <p>Contains text with annotations, such as pronounciation hints. Commonly used in East Asian text.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/ruby">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="bdo">
-        <h3>&lt;bdo&gt;</h3>
-        <p>Defines directional formatting for content.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/bdo">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="code">
-        <h3>&lt;code&gt;</h3>
-        <p>Fragment of code.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/phrase_elements">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/text-level-semantics.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="figure">
-        <h3>&lt;figure&gt;</h3>
-        <p>Contains elements related to single concept, such as an illustration or code example.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/figure">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="li">
-        <h3>&lt;li&gt;</h3>
-        <p>List item.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/li">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="dd">
-        <h3>&lt;dd&gt;</h3>
-        <p>Description for the preceding term.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/dd">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/grouping-content.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="textarea">
-        <h3>&lt;textarea&gt;</h3>
-        <p>Multiline free-form text input.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/textarea">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="button">
-        <h3>&lt;button&gt;</h3>
-        <p>A button.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/button">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="progress">
-        <h3>&lt;progress&gt;</h3>
-        <p>Control for displaying progress of a task.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/progress">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="h6">
-        <h3>&lt;h6&gt;</h3>
-        <p>Heading for the current section.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/hn/">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="hgroup">
-        <h3>&lt;hgroup&gt;</h3>
-        <p>Collection of headings for the current section. The highest ranked heading represents the group in the document outline.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/hgroup">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/sections.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="details">
-        <h3>&lt;details&gt;</h3>
-        <p>Contains additional information, such as the contents of an accordian view.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/details">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/rendering.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="tfoot">
-        <h3>&lt;tfoot&gt;</h3>
-        <p>Contains rows with summary of data.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/tfoot">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/tabular-data.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="img">
-        <h3>&lt;img&gt;</h3>
-        <p>An image.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/img">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/embedded-content-1.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="area">
-        <h3>&lt;area&gt;</h3>
-        <p>Hyperlink area in an image map.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/area">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-map-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="map">
-        <h3>&lt;map&gt;</h3>
-        <p>Image map for adding hyperlinks to parts of an image.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/map">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-map-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="embed">
-        <h3>&lt;embed&gt;</h3>
-        <p>Reference to non-HTML content.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/embed">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-iframe-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="object">
-        <h3>&lt;object&gt;</h3>
-        <p>External resource such as an image, iframe or plugin.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/object">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-iframe-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="param">
-        <h3>&lt;param&gt;</h3>
-        <p>Parameters for the parent object.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/param">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-iframe-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="source">
-        <h3>&lt;source&gt;</h3>
-        <p>Alternative sources for parent video or audio elements.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/source">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/video.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="iframe">
-        <h3>&lt;iframe&gt;</h3>
-        <p>Nested browser frame.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/iframe">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-iframe-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="canvas">
-        <h3>&lt;canvas&gt;</h3>
-        <p>Bitmap which is editable by client side scripts.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/canvas">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-canvas-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="track">
-        <h3>&lt;track&gt;</h3>
-        <p>Specifies external timing track for media elements.</p>
-        <ul class="links">
-          <li><a href="http://www.w3.org/TR/html5/the-iframe-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="audio">
-        <h3>&lt;audio&gt;</h3>
-        <p>Audio file.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/audio">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-iframe-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-      <div class="info" id="video">
-        <h3>&lt;video&gt;</h3>
-        <p>Video.</p>
-        <ul class="links">
-          <li><a href="https://developer.mozilla.org/en/HTML/Element/video">Mozilla</a></li>
-          <li><a href="http://www.w3.org/TR/html5/the-iframe-element.html">W3C Reference</a></li>
-        </ul>
-      </div>
-    </div>
+	<head>
+		<style>html {
+  background: #787878;
+  /* Old browsers */
+  background: radial-gradient(ellipse at center, #454545 0%, #787878 100%);
+  background-size: cover;
+  height: 100%;
+  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-      try {
-      var pageTracker = _gat._getTracker("UA-42027047-3");
-      pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
-  </body>
+body {
+  width: 90%;
+  width: 90vw;
+  margin: 1vh auto;
+  color: black; }
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #FFF; }
+
+.elements {
+  font-size: 10px; }
+  @media screen and (min-width: 600px) {
+    .elements {
+      font-size: calc(10px + 8 * ((100vw - 600px) / 1320)); } }
+  @media screen and (min-width: 1920px) {
+    .elements {
+      font-size: 18px; } }
+
+.element {
+  display: none; }
+
+.key {
+  display: none; }
+
+@media screen and (min-width: 600px) {
+  .row {
+    display: flex;
+    text-align: center;
+    height: 6vmin;
+    justify-content: space-around; }
+  .f-block .row {
+    justify-content: flex-end; }
+  .element {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    flex: 6vw 0 0;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin: 1px;
+    text-decoration: none; }
+  .description {
+    display: none; }
+  .description:target {
+    display: block; }
+  .key {
+    display: block;
+    padding: 0;
+    width: 60%;
+    max-width: 650px;
+    list-style-type: none;
+    color: #fff;
+    line-height: 1.8;
+    font-weight: normal; }
+  .key li {
+    display: inline-block;
+    margin: 0 .2rem;
+    position: relative;
+    padding-left: 20px; }
+  .key li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 16px;
+    height: 16px; } }
+
+.description {
+  padding: 1em;
+  margin: 2em 0;
+  text-overflow: ellipsis; }
+  .description h2 {
+    margin: 0; }
+  .description a {
+    color: #1d2441;
+    text-decoration: none; }
+  .description a:visited {
+    color: #3C4C88; }
+  .description a:hover, .description a:focus {
+    color: #3C4C88;
+    text-decoration: underline; }
+  .description .moz-link {
+    position: relative;
+    padding-left: 24px; }
+  .description .moz-link:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background: url("moz.png");
+    transform: translate(0, -50%);
+    width: 16px;
+    height: 16px; }
+
+.element.group-base {
+  background-color: #d48489; }
+  .element.group-base:hover {
+    background-color: #e1aaad; }
+
+.description.group-base {
+  background-color: rgba(225, 170, 173, 0.5); }
+  .description.group-base:hover {
+    background-color: rgba(212, 132, 137, 0.8); }
+
+.key li.group-base:before {
+  background-color: #d48489; }
+
+.element.group-metadata {
+  background-color: #d49384; }
+  .element.group-metadata:hover {
+    background-color: #e1b4aa; }
+
+.description.group-metadata {
+  background-color: rgba(225, 180, 170, 0.5); }
+  .description.group-metadata:hover {
+    background-color: rgba(212, 147, 132, 0.8); }
+
+.key li.group-metadata:before {
+  background-color: #d49384; }
+
+.element.group-sectioning {
+  background-color: #d4a784; }
+  .element.group-sectioning:hover {
+    background-color: #e1c2aa; }
+
+.description.group-sectioning {
+  background-color: rgba(225, 194, 170, 0.5); }
+  .description.group-sectioning:hover {
+    background-color: rgba(212, 167, 132, 0.8); }
+
+.key li.group-sectioning:before {
+  background-color: #d4a784; }
+
+.element.group-text-content {
+  background-color: #d4bb84; }
+  .element.group-text-content:hover {
+    background-color: #e1d0aa; }
+
+.description.group-text-content {
+  background-color: rgba(225, 208, 170, 0.5); }
+  .description.group-text-content:hover {
+    background-color: rgba(212, 187, 132, 0.8); }
+
+.key li.group-text-content:before {
+  background-color: #d4bb84; }
+
+.element.group-text-semantics {
+  background-color: #d4cf84; }
+  .element.group-text-semantics:hover {
+    background-color: #e1deaa; }
+
+.description.group-text-semantics {
+  background-color: rgba(225, 222, 170, 0.5); }
+  .description.group-text-semantics:hover {
+    background-color: rgba(212, 207, 132, 0.8); }
+
+.key li.group-text-semantics:before {
+  background-color: #d4cf84; }
+
+.element.group-media {
+  background-color: #c5d484; }
+  .element.group-media:hover {
+    background-color: #d7e1aa; }
+
+.description.group-media {
+  background-color: rgba(215, 225, 170, 0.5); }
+  .description.group-media:hover {
+    background-color: rgba(197, 212, 132, 0.8); }
+
+.key li.group-media:before {
+  background-color: #c5d484; }
+
+.element.group-embedded {
+  background-color: #b1d484; }
+  .element.group-embedded:hover {
+    background-color: #c9e1aa; }
+
+.description.group-embedded {
+  background-color: rgba(201, 225, 170, 0.5); }
+  .description.group-embedded:hover {
+    background-color: rgba(177, 212, 132, 0.8); }
+
+.key li.group-embedded:before {
+  background-color: #b1d484; }
+
+.element.group-script {
+  background-color: #9dd484; }
+  .element.group-script:hover {
+    background-color: #bbe1aa; }
+
+.description.group-script {
+  background-color: rgba(187, 225, 170, 0.5); }
+  .description.group-script:hover {
+    background-color: rgba(157, 212, 132, 0.8); }
+
+.key li.group-script:before {
+  background-color: #9dd484; }
+
+.element.group-edits {
+  background-color: #89d484; }
+  .element.group-edits:hover {
+    background-color: #ade1aa; }
+
+.description.group-edits {
+  background-color: rgba(173, 225, 170, 0.5); }
+  .description.group-edits:hover {
+    background-color: rgba(137, 212, 132, 0.8); }
+
+.key li.group-edits:before {
+  background-color: #89d484; }
+
+.element.group-table {
+  background-color: #84d493; }
+  .element.group-table:hover {
+    background-color: #aae1b4; }
+
+.description.group-table {
+  background-color: rgba(170, 225, 180, 0.5); }
+  .description.group-table:hover {
+    background-color: rgba(132, 212, 147, 0.8); }
+
+.key li.group-table:before {
+  background-color: #84d493; }
+
+.element.group-forms {
+  background-color: #84d4a7; }
+  .element.group-forms:hover {
+    background-color: #aae1c2; }
+
+.description.group-forms {
+  background-color: rgba(170, 225, 194, 0.5); }
+  .description.group-forms:hover {
+    background-color: rgba(132, 212, 167, 0.8); }
+
+.key li.group-forms:before {
+  background-color: #84d4a7; }
+
+.element.group-interactive {
+  background-color: #84d4bb; }
+  .element.group-interactive:hover {
+    background-color: #aae1d0; }
+
+.description.group-interactive {
+  background-color: rgba(170, 225, 208, 0.5); }
+  .description.group-interactive:hover {
+    background-color: rgba(132, 212, 187, 0.8); }
+
+.key li.group-interactive:before {
+  background-color: #84d4bb; }
+
+.element.group-web-components {
+  background-color: #84d4cf; }
+  .element.group-web-components:hover {
+    background-color: #aae1de; }
+
+.description.group-web-components {
+  background-color: rgba(170, 225, 222, 0.5); }
+  .description.group-web-components:hover {
+    background-color: rgba(132, 212, 207, 0.8); }
+
+.key li.group-web-components:before {
+  background-color: #84d4cf; }
+</style>
+	</head>
+	<body>
+		<main>
+			<h1>Periodic table of HTML elements</h1>
+			<div class="elements">
+	<div class="row">
+	  <a href="#html" class="element group-base"><span>html</span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#output" class="element group-forms"><span>output</span></a>
+	</div>
+	<div class="row">
+	  <a href="#base" class="element group-metadata"><span>base</span></a>
+	  <a href="#h1-h6" class="element group-sectioning"><span>h1-h6</span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#strong" class="element group-text-semantics"><span>strong</span></a>
+	  <a href="#area" class="element group-media"><span>area</span></a>
+	  <a href="#param" class="element group-embedded"><span>param</span></a>
+	  <a href="#caption" class="element group-table"><span>caption</span></a>
+	  <a href="#th" class="element group-table"><span>th</span></a>
+	  <a href="#input" class="element group-forms"><span>input</span></a>
+	  <a href="#progress" class="element group-forms"><span>progress</span></a>
+	</div>
+	<div class="row">
+	  <a href="#head" class="element group-metadata"><span>head</span></a>
+	  <a href="#hgroup" class="element group-sectioning"><span>hgroup</span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#sub" class="element group-text-semantics"><span>sub</span></a>
+	  <a href="#audio" class="element group-media"><span>audio</span></a>
+	  <a href="#source" class="element group-embedded"><span>source</span></a>
+	  <a href="#col" class="element group-table"><span>col</span></a>
+	  <a href="#thead" class="element group-table"><span>thead</span></a>
+	  <a href="#keygen" class="element group-forms"><span>keygen</span></a>
+	  <a href="#select" class="element group-forms"><span>select</span></a>
+	</div>
+	<div class="row">
+	  <a href="#style" class="element group-metadata"><span>style</span></a>
+	  <a href="#nav" class="element group-sectioning"><span>nav</span></a>
+	  <a href="#figcaption" class="element group-text-content"><span>figcaption</span></a>
+	  <a href="#p" class="element group-text-content"><span>p</span></a>
+	  <a href="#bdi" class="element group-text-semantics"><span>bdi</span></a>
+	  <a href="#data" class="element group-text-semantics"><span>data</span></a>
+	  <a href="#mark" class="element group-text-semantics"><span>mark</span></a>
+	  <a href="#ruby" class="element group-text-semantics"><span>ruby</span></a>
+	  <a href="#sup" class="element group-text-semantics"><span>sup</span></a>
+	  <a href="#map" class="element group-media"><span>map</span></a>
+	  <a href="#canvas" class="element group-script"><span>canvas</span></a>
+	  <a href="#colgroup" class="element group-table"><span>colgroup</span></a>
+	  <a href="#tr" class="element group-table"><span>tr</span></a>
+	  <a href="#label" class="element group-forms"><span>label</span></a>
+	  <a href="#details" class="element group-interactive"><span>details</span></a>
+	</div>
+	<div class="row">
+	  <a href="#title" class="element group-metadata"><span>title</span></a>
+	  <a href="#section" class="element group-sectioning"><span>section</span></a>
+	  <a href="#figure" class="element group-text-content"><span>figure</span></a>
+	  <a href="#pre" class="element group-text-content"><span>pre</span></a>
+	  <a href="#bdo" class="element group-text-semantics"><span>bdo</span></a>
+	  <a href="#dfn" class="element group-text-semantics"><span>dfn</span></a>
+	  <a href="#q" class="element group-text-semantics"><span>q</span></a>
+	  <a href="#s" class="element group-text-semantics"><span>s</span></a>
+	  <a href="#time" class="element group-text-semantics"><span>time</span></a>
+	  <a href="#track" class="element group-media"><span>track</span></a>
+	  <a href="#noscript" class="element group-script"><span>noscript</span></a>
+	  <a href="#table" class="element group-table"><span>table</span></a>
+	  <a href="#button" class="element group-forms"><span>button</span></a>
+	  <a href="#legend" class="element group-forms"><span>legend</span></a>
+	  <a href="#dialog" class="element group-interactive"><span>dialog</span></a>
+	</div>
+	<div class="row">
+	  <a href="#address" class="element group-sectioning"><span>address</span></a>
+	  <a href="#dd" class="element group-text-content"><span>dd</span></a>
+	  <a href="#hr" class="element group-text-content"><span>hr</span></a>
+	  <a href="#ul" class="element group-text-content"><span>ul</span></a>
+	  <a href="#br" class="element group-text-semantics"><span>br</span></a>
+	  <a href="#em" class="element group-text-semantics"><span>em</span></a>
+	  <a href="#rp" class="element group-text-semantics"><span>rp</span></a>
+	  <a href="#samp" class="element group-text-semantics"><span>samp</span></a>
+	  <a href="#u" class="element group-text-semantics"><span>u</span></a>
+	  <a href="#video" class="element group-media"><span>video</span></a>
+	  <a href="#script" class="element group-script"><span>script</span></a>
+	  <a href="#tbody" class="element group-table"><span>tbody</span></a>
+	  <a href="#datalist" class="element group-forms"><span>datalist</span></a>
+	  <a href="#meter" class="element group-forms"><span>meter</span></a>
+	  <a href="#menu" class="element group-interactive"><span>menu</span></a>
+	</div>
+	<div class="row">
+	  <a href="#article" class="element group-sectioning"><span>article</span></a>
+	  <a href="#div" class="element group-text-content"><span>div</span></a>
+	  <a href="#li" class="element group-text-content"><span>li</span></a>
+	  <a href="#abbr" class="element group-text-semantics"><span>abbr</span></a>
+	  <a href="#cite" class="element group-text-semantics"><span>cite</span></a>
+	  <a href="#i" class="element group-text-semantics"><span>i</span></a>
+	  <a href="#rt" class="element group-text-semantics"><span>rt</span></a>
+	  <a href="#small" class="element group-text-semantics"><span>small</span></a>
+	  <a href="#var" class="element group-text-semantics"><span>var</span></a>
+	  <a href="#embed" class="element group-embedded"><span>embed</span></a>
+	  <a href="#del" class="element group-edits"><span>del</span></a>
+	  <a href="#td" class="element group-table"><span>td</span></a>
+	  <a href="#fieldset" class="element group-forms"><span>fieldset</span></a>
+	  <a href="#optgroup" class="element group-forms"><span>optgroup</span></a>
+	  <a href="#menuitem" class="element group-interactive"><span>menuitem</span></a>
+	</div>
+	<div class="row">
+	  <a href="#footer" class="element group-sectioning"><span>footer</span></a>
+	  <a href="#dl" class="element group-text-content"><span>dl</span></a>
+	  <a href="#main" class="element group-text-content"><span>main</span></a>
+	  <a href="#b" class="element group-text-semantics"><span>b</span></a>
+	  <a href="#code" class="element group-text-semantics"><span>code</span></a>
+	  <a href="#kbd" class="element group-text-semantics"><span>kbd</span></a>
+	  <a href="#rtc" class="element group-text-semantics"><span>rtc</span></a>
+	  <a href="#span" class="element group-text-semantics"><span>span</span></a>
+	  <a href="#wbr" class="element group-text-semantics"><span>wbr</span></a>
+	  <a href="#object" class="element group-embedded"><span>object</span></a>
+	  <a href="#ins" class="element group-edits"><span>ins</span></a>
+	  <a href="#tfoot" class="element group-table"><span>tfoot</span></a>
+	  <a href="#form" class="element group-forms"><span>form</span></a>
+	  <a href="#option" class="element group-forms"><span>option</span></a>
+	  <a href="#summary" class="element group-interactive"><span>summary</span></a>
+	</div>
+	<div class="row">
+	  <a href="#header" class="element group-sectioning"><span>header</span></a>
+	  <a href="#dt" class="element group-text-content"><span>dt</span></a>
+	  <a href="#ol" class="element group-text-content"><span>ol</span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	  <a href="#" class="element"><span></span></a>
+	</div>
+</div>
+<div class="f-block elements">
+	<div class="row">
+	  <a href="#content" class="element group-web-components"><span>content</span></a>
+	  <a href="#element" class="element group-web-components"><span>element</span></a>
+	  <a href="#shadow" class="element group-web-components"><span>shadow</span></a>
+	  <a href="#template" class="element group-web-components"><span>template</span></a>
+	</div>
+</div>
+<ul class="key">
+	<li class="group-base">base</li>
+	<li class="group-metadata">metadata</li>
+	<li class="group-sectioning">sectioning</li>
+	<li class="group-text-content">text-content</li>
+	<li class="group-text-semantics">text-semantics</li>
+	<li class="group-media">media</li>
+	<li class="group-embedded">embedded</li>
+	<li class="group-script">script</li>
+	<li class="group-edits">edits</li>
+	<li class="group-table">table</li>
+	<li class="group-forms">forms</li>
+	<li class="group-interactive">interactive</li>
+	<li class="group-web-components">web-components</li>
+</ul>
+<div class="descriptions">
+		  <div class="description group-base" id="html">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/html">&lt;html&gt;</a></h2>
+				<p>The HTML <code>&lt;html&gt;</code> element (or HTML root element) represents the root of an HTML document. All other elements must be descendants of this element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/html">https://developer.mozilla.org/en/docs/Web/HTML/Element/html</a></p>
+			</div>
+		  <div class="description group-forms" id="output">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/output">&lt;output&gt;</a></h2>
+				<p>The HTML <code>&lt;output&gt;</code> element represents the result of a calculation or user action.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/output">https://developer.mozilla.org/en/docs/Web/HTML/Element/output</a></p>
+			</div>
+		  <div class="description group-metadata" id="base">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/base">&lt;base&gt;</a></h2>
+				<p>The HTML <code>&lt;base&gt;</code> element specifies the base URL to use for all relative URLs contained within a document. There can be only one <code>&lt;base&gt;</code> element in a document.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/base">https://developer.mozilla.org/en/docs/Web/HTML/Element/base</a></p>
+			</div>
+		  <div class="description group-sectioning" id="h1-h6">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/h1">&lt;h1-h6&gt;</a></h2>
+				<p>Heading elements implement six levels of document headings, <code>&lt;h1&gt;</code> is the most important and <code>&lt;h6&gt;</code> is the least. A heading element briefly describes the topic of the section it introduces. Heading information may be used by user agents, for example, to construct a table of contents for a document automatically.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/h1">https://developer.mozilla.org/en/docs/Web/HTML/Element/h1</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="strong">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/strong">&lt;strong&gt;</a></h2>
+				<p>The HTML Strong Element (<code>&lt;strong&gt;</code>) gives text strong importance, and is typically displayed in bold.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/strong">https://developer.mozilla.org/en/docs/Web/HTML/Element/strong</a></p>
+			</div>
+		  <div class="description group-media" id="area">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/area">&lt;area&gt;</a></h2>
+				<p>The HTML <code>&lt;area&gt;</code> element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a <code>&lt;map&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/area">https://developer.mozilla.org/en/docs/Web/HTML/Element/area</a></p>
+			</div>
+		  <div class="description group-embedded" id="param">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/param">&lt;param&gt;</a></h2>
+				<p>The HTML <code>&lt;param&gt;</code> Element (or HTML Parameter Element) defines parameters for <code>&lt;object&gt;</code>.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/param">https://developer.mozilla.org/en/docs/Web/HTML/Element/param</a></p>
+			</div>
+		  <div class="description group-table" id="caption">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/caption">&lt;caption&gt;</a></h2>
+				<p>The HTML <code>&lt;caption&gt;</code> Element (or HTML Table Caption Element) represents the title of a table. Though it is always the first descendant of a <code>&lt;table&gt;</code>, its styling, using CSS, may place it elsewhere, relative to the table.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/caption">https://developer.mozilla.org/en/docs/Web/HTML/Element/caption</a></p>
+			</div>
+		  <div class="description group-table" id="th">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/th">&lt;th&gt;</a></h2>
+				<p>The HTML element table header cell <code>&lt;th&gt;</code> defines a cell that is a header for a group of cells of a table. The group of cells that the header refers to is defined by the scope and headers attribute.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/th">https://developer.mozilla.org/en/docs/Web/HTML/Element/th</a></p>
+			</div>
+		  <div class="description group-forms" id="input">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/input">&lt;input&gt;</a></h2>
+				<p>The HTML element <code>&lt;input&gt;</code> is used to create interactive controls for web-based forms in order to accept data from the user. How an <code>&lt;input&gt;</code> works varies considerably depending on the value of its type attribute.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/input">https://developer.mozilla.org/en/docs/Web/HTML/Element/input</a></p>
+			</div>
+		  <div class="description group-forms" id="progress">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/progress">&lt;progress&gt;</a></h2>
+				<p>The HTML <code>&lt;progress&gt;</code> Element is used to view the completion progress of a task. While the specifics of how it's displayed is left up to the browser developer, it's typically displayed as a progress bar. Javascript can be used to manipulate the value of progress bar.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/progress">https://developer.mozilla.org/en/docs/Web/HTML/Element/progress</a></p>
+			</div>
+		  <div class="description group-metadata" id="head">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/head">&lt;head&gt;</a></h2>
+				<p>The HTML <code>&lt;head&gt;</code> element provides general information (metadata) about the document, including its title and links to/definitions of scripts and style sheets.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/head">https://developer.mozilla.org/en/docs/Web/HTML/Element/head</a></p>
+			</div>
+		  <div class="description group-sectioning" id="hgroup">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/hgroup">&lt;hgroup&gt;</a></h2>
+				<p>The HTML <code>&lt;hgroup&gt;</code> Element (HTML Headings Group Element) represents the heading of a section. It defines a single title that participates in the outline of the document as the heading of the implicit or explicit section that it belongs to.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/hgroup">https://developer.mozilla.org/en/docs/Web/HTML/Element/hgroup</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="sub">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/sub">&lt;sub&gt;</a></h2>
+				<p>The HTML Subscript Element (<code>&lt;sub&gt;</code>) defines a span of text that should be displayed, for typographic reasons, lower, and often smaller, than the main span of text.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/sub">https://developer.mozilla.org/en/docs/Web/HTML/Element/sub</a></p>
+			</div>
+		  <div class="description group-media" id="audio">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/audio">&lt;audio&gt;</a></h2>
+				<p>The HTML <code>&lt;audio&gt;</code> element is used to embed sound content in documents. It may contain several audio sources, represented using the src attribute or the <code>&lt;source&gt;</code> element; the browser will choose the most suitable one.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/audio">https://developer.mozilla.org/en/docs/Web/HTML/Element/audio</a></p>
+			</div>
+		  <div class="description group-embedded" id="source">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/source">&lt;source&gt;</a></h2>
+				<p>The HTML <code>&lt;source&gt;</code> element is used to specify multiple media resources for <code>&lt;picture&gt;</code>, <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> elements. It is an empty element. It is commonly used to serve the same media in multiple formats supported by different browsers.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/source">https://developer.mozilla.org/en/docs/Web/HTML/Element/source</a></p>
+			</div>
+		  <div class="description group-table" id="col">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/col">&lt;col&gt;</a></h2>
+				<p>The HTML Table Column Element (<code>&lt;col&gt;</code>) defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a <code>&lt;colgroup&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/col">https://developer.mozilla.org/en/docs/Web/HTML/Element/col</a></p>
+			</div>
+		  <div class="description group-table" id="thead">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/thead">&lt;thead&gt;</a></h2>
+				<p>The HTML Table Head Element (<code>&lt;thead&gt;</code>) defines a set of rows defining the head of the columns of the table.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/thead">https://developer.mozilla.org/en/docs/Web/HTML/Element/thead</a></p>
+			</div>
+		  <div class="description group-forms" id="keygen">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/keygen">&lt;keygen&gt;</a></h2>
+				<p>The HTML <code>&lt;keygen&gt;</code> element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the <code>&lt;keygen&gt;</code> element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/keygen">https://developer.mozilla.org/en/docs/Web/HTML/Element/keygen</a></p>
+			</div>
+		  <div class="description group-forms" id="select">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/select">&lt;select&gt;</a></h2>
+				<p>The HTML select (<code>&lt;select&gt;</code>) element represents a control that presents a menu of options. The options within the menu are represented by <code>&lt;option&gt;</code> elements, which can be grouped by <code>&lt;optgroup&gt;</code> elements. Options can be pre-selected for the user.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/select">https://developer.mozilla.org/en/docs/Web/HTML/Element/select</a></p>
+			</div>
+		  <div class="description group-metadata" id="style">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/style">&lt;style&gt;</a></h2>
+				<p>The HTML <code>&lt;style&gt;</code> element contains style information for a document, or part of a document. By default, the style instructions written inside that element are expected to be CSS.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/style">https://developer.mozilla.org/en/docs/Web/HTML/Element/style</a></p>
+			</div>
+		  <div class="description group-sectioning" id="nav">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/nav">&lt;nav&gt;</a></h2>
+				<p>The HTML <code>&lt;nav&gt;</code> element (HTML Navigation Element) represents a section of a page that links to other pages or to parts within the page: a section with navigation links.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/nav">https://developer.mozilla.org/en/docs/Web/HTML/Element/nav</a></p>
+			</div>
+		  <div class="description group-text-content" id="figcaption">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/figcaption">&lt;figcaption&gt;</a></h2>
+				<p>The HTML <code>&lt;figcaption&gt;</code> element represents a caption or a legend associated with a figure or an illustration described by the rest of the data of the <code>&lt;figure&gt;</code> element which is its immediate ancestor which means <code>&lt;figcaption&gt;</code> can be the first or last element inside a <code>&lt;figure&gt;</code> block. Also, the HTML Figcaption Element is optional; if not provided, then the parent figure element will have no caption.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/figcaption">https://developer.mozilla.org/en/docs/Web/HTML/Element/figcaption</a></p>
+			</div>
+		  <div class="description group-text-content" id="p">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/p">&lt;p&gt;</a></h2>
+				<p>The HTML <code>&lt;p&gt;</code> element (or HTML Paragraph Element) represents a paragraph of text.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/p">https://developer.mozilla.org/en/docs/Web/HTML/Element/p</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="bdi">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/bdi">&lt;bdi&gt;</a></h2>
+				<p>The HTML <code>&lt;bdi&gt;</code> Element (or Bi-Directional Isolation Element) isolates a span of text that might be formatted in a different direction from other text outside it.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/bdi">https://developer.mozilla.org/en/docs/Web/HTML/Element/bdi</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="data">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/data">&lt;data&gt;</a></h2>
+				<p>The HTML <code>&lt;data&gt;</code> Element links a given content with a machine-readable translation. If the content is time- or date-related, the <code>&lt;time&gt;</code> must be used.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/data">https://developer.mozilla.org/en/docs/Web/HTML/Element/data</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="mark">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/mark">&lt;mark&gt;</a></h2>
+				<p>The HTML Mark Element (<code>&lt;mark&gt;</code>) represents highlighted text, i.e., a run of text marked for reference purpose, due to its relevance in a particular context. For example it can be used in a page showing search results to highlight every instance of the searched-for word.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/mark">https://developer.mozilla.org/en/docs/Web/HTML/Element/mark</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="ruby">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ruby">&lt;ruby&gt;</a></h2>
+				<p>The HTML <code>&lt;ruby&gt;</code> Element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ruby">https://developer.mozilla.org/en/docs/Web/HTML/Element/ruby</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="sup">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/sup">&lt;sup&gt;</a></h2>
+				<p>The HTML Superscript Element (<code>&lt;sup&gt;</code>) defines a span of text that should be displayed, for typographic reasons, higher, and often smaller, than the main span of text.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/sup">https://developer.mozilla.org/en/docs/Web/HTML/Element/sup</a></p>
+			</div>
+		  <div class="description group-media" id="map">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/map">&lt;map&gt;</a></h2>
+				<p>The HTML <code>&lt;map&gt;</code> element is used with <code>&lt;area&gt;</code> elements to define an image map (a clickable link area).</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/map">https://developer.mozilla.org/en/docs/Web/HTML/Element/map</a></p>
+			</div>
+		  <div class="description group-script" id="canvas">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/canvas">&lt;canvas&gt;</a></h2>
+				<p>The HTML <code>&lt;canvas&gt;</code> Element can be used to draw graphics via scripting (usually JavaScript). For example, it can be used to draw graphs, make photo compositions or even perform animations. You may (and should) provide alternate content inside the <code>&lt;canvas&gt;</code> block. That content will be rendered both on older browsers that don't support canvas and in browsers with JavaScript disabled.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/canvas">https://developer.mozilla.org/en/docs/Web/HTML/Element/canvas</a></p>
+			</div>
+		  <div class="description group-table" id="colgroup">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/colgroup">&lt;colgroup&gt;</a></h2>
+				<p>The HTML Table Column Group Element (<code>&lt;colgroup&gt;</code>) defines a group of columns within a table.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/colgroup">https://developer.mozilla.org/en/docs/Web/HTML/Element/colgroup</a></p>
+			</div>
+		  <div class="description group-table" id="tr">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/tr">&lt;tr&gt;</a></h2>
+				<p>The HTML element table row <code>&lt;tr&gt;</code> defines a row of cells in a table. Those can be a mix of <code>&lt;td&gt;</code> and <code>&lt;th&gt;</code> elements.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/tr">https://developer.mozilla.org/en/docs/Web/HTML/Element/tr</a></p>
+			</div>
+		  <div class="description group-forms" id="label">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/label">&lt;label&gt;</a></h2>
+				<p>The HTML Label Element (<code>&lt;label&gt;</code>) represents a caption for an item in a user interface. It can be associated with a control either by placing the control element inside the <code>&lt;label&gt;</code> element, or by using the for attribute. Such a control is called the labeled control of the label element. With one input can be assosiated few labels.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/label">https://developer.mozilla.org/en/docs/Web/HTML/Element/label</a></p>
+			</div>
+		  <div class="description group-interactive" id="details">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/details">&lt;details&gt;</a></h2>
+				<p>The HTML Details Element (<code>&lt;details&gt;</code>) is used as a disclosure widget from which the user can retrieve additional information.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/details">https://developer.mozilla.org/en/docs/Web/HTML/Element/details</a></p>
+			</div>
+		  <div class="description group-metadata" id="title">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/title">&lt;title&gt;</a></h2>
+				<p>The HTML <code>&lt;title&gt;</code> element defines the title of the document, shown in a browser's title bar or on the page's tab. It can only contain text and any contained tags are not interpreted.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/title">https://developer.mozilla.org/en/docs/Web/HTML/Element/title</a></p>
+			</div>
+		  <div class="description group-sectioning" id="section">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/section">&lt;section&gt;</a></h2>
+				<p>The HTML <code>&lt;section&gt;</code> element represents a generic section of a document, i.e., a thematic grouping of content, typically with a heading. Each <code>&lt;section&gt;</code> should be identified, typically by including a heading (<code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code> element) as a child of the <code>&lt;section&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/section">https://developer.mozilla.org/en/docs/Web/HTML/Element/section</a></p>
+			</div>
+		  <div class="description group-text-content" id="figure">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/figure">&lt;figure&gt;</a></h2>
+				<p>The HTML <code>&lt;figure&gt;</code> element represents self-contained content, frequently with a caption (<code>&lt;figcaption&gt;</code>), and is typically referenced as a single unit. While it is related to the main flow, its position is independent of the main flow. Usually this is an image, an illustration, a diagram, a code snippet, or a schema that is referenced in the main text, but that can be moved to another page or to an appendix without affecting the main flow.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/figure">https://developer.mozilla.org/en/docs/Web/HTML/Element/figure</a></p>
+			</div>
+		  <div class="description group-text-content" id="pre">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/pre">&lt;pre&gt;</a></h2>
+				<p>The HTML <code>&lt;pre&gt;</code> element (or HTML Preformatted Text) represents preformatted text. Text within this element is typically displayed in a non-proportional font exactly as it is laid out in the file. Whitespaces inside this element are displayed as typed.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/pre">https://developer.mozilla.org/en/docs/Web/HTML/Element/pre</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="bdo">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/bdo">&lt;bdo&gt;</a></h2>
+				<p>The HTML <code>&lt;bdo&gt;</code> Element (or HTML bidirectional override element) is used to override the current directionality of text. It causes the directionality of the characters to be ignored in favor of the specified directionality.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/bdo">https://developer.mozilla.org/en/docs/Web/HTML/Element/bdo</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="dfn">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dfn">&lt;dfn&gt;</a></h2>
+				<p>The HTML Definition Element (<code>&lt;dfn&gt;</code>) represents the defining instance of a term.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dfn">https://developer.mozilla.org/en/docs/Web/HTML/Element/dfn</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="q">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/q">&lt;q&gt;</a></h2>
+				<p>The HTML Quote Element (<code>&lt;q&gt;</code>) indicates that the enclosed text is a short inline quotation. This element is intended for short quotations that don't require paragraph breaks; for long quotations use <code>&lt;blockquote&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/q">https://developer.mozilla.org/en/docs/Web/HTML/Element/q</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="s">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/s">&lt;s&gt;</a></h2>
+				<p>The HTML Strikethrough Element (<code>&lt;s&gt;</code>) renders text with a strikethrough, or a line through it. Use the <code>&lt;s&gt;</code> element to represent things that are no longer relevant or no longer accurate. However, <code>&lt;s&gt;</code> is not appropriate when indicating document edits; for that, use the <code>&lt;del&gt;</code> and <code>&lt;ins&gt;</code> elements, as appropriate.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/s">https://developer.mozilla.org/en/docs/Web/HTML/Element/s</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="time">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/time">&lt;time&gt;</a></h2>
+				<p>The HTML <code>&lt;time&gt;</code> element represents either a time on a 24-hour clock or a precise date in the Gregorian calendar (with optional time and timezone information).</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/time">https://developer.mozilla.org/en/docs/Web/HTML/Element/time</a></p>
+			</div>
+		  <div class="description group-media" id="track">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/track">&lt;track&gt;</a></h2>
+				<p>The HTML <code>&lt;track&gt;</code> element is used as a child of the media elements—<code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) — Web Video Text Tracks.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/track">https://developer.mozilla.org/en/docs/Web/HTML/Element/track</a></p>
+			</div>
+		  <div class="description group-script" id="noscript">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/noscript">&lt;noscript&gt;</a></h2>
+				<p>The HTML <code>&lt;noscript&gt;</code> Element defines a section of html to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/noscript">https://developer.mozilla.org/en/docs/Web/HTML/Element/noscript</a></p>
+			</div>
+		  <div class="description group-table" id="table">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/table">&lt;table&gt;</a></h2>
+				<p>The HTML Table Element (<code>&lt;table&gt;</code>) represents data in two dimensions or more.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/table">https://developer.mozilla.org/en/docs/Web/HTML/Element/table</a></p>
+			</div>
+		  <div class="description group-forms" id="button">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/button">&lt;button&gt;</a></h2>
+				<p>The HTML <code>&lt;button&gt;</code> Element represents a clickable button.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/button">https://developer.mozilla.org/en/docs/Web/HTML/Element/button</a></p>
+			</div>
+		  <div class="description group-forms" id="legend">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/legend">&lt;legend&gt;</a></h2>
+				<p>The HTML <code>&lt;legend&gt;</code> Element (or HTML Legend Field Element) represents a caption for the content of its parent <code>&lt;fieldset&gt;</code>.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/legend">https://developer.mozilla.org/en/docs/Web/HTML/Element/legend</a></p>
+			</div>
+		  <div class="description group-interactive" id="dialog">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dialog">&lt;dialog&gt;</a></h2>
+				<p>The HTML <code>&lt;dialog&gt;</code> element represents a dialog box or other interactive component, such as an inspector or window. <code>&lt;form&gt;</code> elements can be integrated within a dialog by specifying them with the attribute method="dialog". When such a form is submitted, the dialog is closed with a returnValue attribute set to the value of the submit button used.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dialog">https://developer.mozilla.org/en/docs/Web/HTML/Element/dialog</a></p>
+			</div>
+		  <div class="description group-sectioning" id="address">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/address">&lt;address&gt;</a></h2>
+				<p>The HTML <code>&lt;address&gt;</code> element supplies contact information for its nearest <code>&lt;article&gt;</code> or <code>&lt;body&gt;</code> ancestor; in the latter case, it applies to the whole document.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/address">https://developer.mozilla.org/en/docs/Web/HTML/Element/address</a></p>
+			</div>
+		  <div class="description group-text-content" id="dd">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dd">&lt;dd&gt;</a></h2>
+				<p>The HTML <code>&lt;dd&gt;</code> element (HTML Description Element) indicates the description of a term in a description list (<code>&lt;dl&gt;</code>) element. This element can occur only as a child element of a definition list and it must follow a <code>&lt;dt&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dd">https://developer.mozilla.org/en/docs/Web/HTML/Element/dd</a></p>
+			</div>
+		  <div class="description group-text-content" id="hr">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/hr">&lt;hr&gt;</a></h2>
+				<p>The HTML <code>&lt;hr&gt;</code> element represents a thematic break between paragraph-level elements (for example, a change of scene in a story, or a shift of topic with a section). In previous versions of HTML, it represented a horizontal rule. It may still be displayed as a horizontal rule in visual browsers, but is now defined in semantic terms, rather than presentational terms.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/hr">https://developer.mozilla.org/en/docs/Web/HTML/Element/hr</a></p>
+			</div>
+		  <div class="description group-text-content" id="ul">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ul">&lt;ul&gt;</a></h2>
+				<p>The HTML <code>&lt;ul&gt;</code> element (or HTML Unordered List Element) represents an unordered list of items, namely a collection of items that do not have a numerical ordering, and their order in the list is meaningless. Typically, unordered-list items are displayed with a bullet, which can be of several forms, like a dot, a circle or a squared. The bullet style is not defined in the HTML description of the page, but in its associated CSS, using the list-style-type property.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ul">https://developer.mozilla.org/en/docs/Web/HTML/Element/ul</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="br">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/br">&lt;br&gt;</a></h2>
+				<p>The HTML element line break <code>&lt;br&gt;</code> produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/br">https://developer.mozilla.org/en/docs/Web/HTML/Element/br</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="em">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/em">&lt;em&gt;</a></h2>
+				<p>The HTML element emphasis  <code>&lt;em&gt;</code> marks text that has stress emphasis. The <code>&lt;em&gt;</code> element can be nested, with each level of nesting indicating a greater degree of emphasis.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/em">https://developer.mozilla.org/en/docs/Web/HTML/Element/em</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="rp">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/rp">&lt;rp&gt;</a></h2>
+				<p>The HTML <code>&lt;rp&gt;</code> element is used to provide fall-back parenthesis for browsers non-supporting ruby annotations. Ruby annotations are for showing pronounciation of East Asian characters, like using Japanese furigana or Taiwainese bopomofo characters. The <code>&lt;rp&gt;</code> element is used in the case of lack of <code>&lt;ruby&gt;</code> element support its content has what should be displayed in order to indicate the presence of a ruby annotation, usually parentheses.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/rp">https://developer.mozilla.org/en/docs/Web/HTML/Element/rp</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="samp">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/samp">&lt;samp&gt;</a></h2>
+				<p>The HTML <code>&lt;samp&gt;</code> element is an element intended to identify sample output from a computer program. It is usually displayed in the browser's default monotype font (such as Lucida Console).</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/samp">https://developer.mozilla.org/en/docs/Web/HTML/Element/samp</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="u">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/u">&lt;u&gt;</a></h2>
+				<p>The HTML Underline Element (<code>&lt;u&gt;</code>) renders text with an underline, a line under the baseline of its content.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/u">https://developer.mozilla.org/en/docs/Web/HTML/Element/u</a></p>
+			</div>
+		  <div class="description group-media" id="video">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/video">&lt;video&gt;</a></h2>
+				<p>Use the  HTML <code>&lt;video&gt;</code> element to embed video content in a document. The video element contains one or more video sources. To specify a video source, use either the src attribute or the <code>&lt;source&gt;</code> element; the browser will choose the most suitable one.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/video">https://developer.mozilla.org/en/docs/Web/HTML/Element/video</a></p>
+			</div>
+		  <div class="description group-script" id="script">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/script">&lt;script&gt;</a></h2>
+				<p>The HTML Script Element (<code>&lt;script&gt;</code>) is used to embed or reference an executable script within an HTML or XHTML document.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/script">https://developer.mozilla.org/en/docs/Web/HTML/Element/script</a></p>
+			</div>
+		  <div class="description group-table" id="tbody">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/tbody">&lt;tbody&gt;</a></h2>
+				<p>The HTML Table Body Element (<code>&lt;tbody&gt;</code>) defines one or more <code>&lt;tr&gt;</code> element data-rows to be the body of its parent <code>&lt;table&gt;</code> element (as long as no <code>&lt;tr&gt;</code> elements are immediate children of that table element.)  In conjunction with a preceding <code>&lt;thead&gt;</code> and/or <code>&lt;tfoot&gt;</code> element, <code>&lt;tbody&gt;</code> provides additional semantic information for devices such as printers and displays. Of the parent table's child elements, <code>&lt;tbody&gt;</code> represents the content which, when longer than a page, will most likely differ for each page printed; while the content of <code>&lt;thead&gt;</code> and <code>&lt;tfoot&gt;</code> will be the same or similar for each page printed. For displays, <code>&lt;tbody&gt;</code> will enable separate scrolling of the <code>&lt;thead&gt;</code>, <code>&lt;tfoot&gt;</code>, and <code>&lt;caption&gt;</code> elements of the same parent <code>&lt;table&gt;</code> element.  Note that unlike the <code>&lt;thead&gt;</code>, <code>&lt;tfoot&gt;</code>, and <code>&lt;caption&gt;</code> elements however, multiple <code>&lt;tbody&gt;</code> elements are permitted (if consecutive), allowing the data-rows in long tables to be divided into different sections, each separately formatted as needed.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/tbody">https://developer.mozilla.org/en/docs/Web/HTML/Element/tbody</a></p>
+			</div>
+		  <div class="description group-forms" id="datalist">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/datalist">&lt;datalist&gt;</a></h2>
+				<p>The HTML Datalist Element (<code>&lt;datalist&gt;</code>) contains a set of <code>&lt;option&gt;</code> elements that represent the values available for other controls.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/datalist">https://developer.mozilla.org/en/docs/Web/HTML/Element/datalist</a></p>
+			</div>
+		  <div class="description group-forms" id="meter">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/meter">&lt;meter&gt;</a></h2>
+				<p>The HTML <code>&lt;meter&gt;</code> Element represents either a scalar value within a known range or a fractional value.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/meter">https://developer.mozilla.org/en/docs/Web/HTML/Element/meter</a></p>
+			</div>
+		  <div class="description group-interactive" id="menu">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/menu">&lt;menu&gt;</a></h2>
+				<p>The HTML <code>&lt;menu&gt;</code> element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/menu">https://developer.mozilla.org/en/docs/Web/HTML/Element/menu</a></p>
+			</div>
+		  <div class="description group-sectioning" id="article">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/article">&lt;article&gt;</a></h2>
+				<p>The HTML <code>&lt;article&gt;</code> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). This could be a forum post, a magazine or newspaper article, a blog entry, an object, or any other independent item of content. Each <code>&lt;article&gt;</code> should be identified, typically by including a heading (<code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code> element) as a child of the <code>&lt;article&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/article">https://developer.mozilla.org/en/docs/Web/HTML/Element/article</a></p>
+			</div>
+		  <div class="description group-text-content" id="div">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/div">&lt;div&gt;</a></h2>
+				<p>The HTML <code>&lt;div&gt;</code> element (or HTML Document Division Element) is the generic container for flow content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element (such as <code>&lt;article&gt;</code> or <code>&lt;nav&gt;</code>) is appropriate.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/div">https://developer.mozilla.org/en/docs/Web/HTML/Element/div</a></p>
+			</div>
+		  <div class="description group-text-content" id="li">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/li">&lt;li&gt;</a></h2>
+				<p>The HTML <code>&lt;li&gt;</code> element (or HTML List Item Element) is used to represent an item in a list. It must be contained in a parent element: an ordered list (<code>&lt;ol&gt;</code>), an unordered list (<code>&lt;ul&gt;</code>), or a menu (<code>&lt;menu&gt;</code>). In menus and unordered lists, list items are usually displayed using bullet points. In ordered lists, they are usually displayed with an ascending counter on the left, such as a number or letter.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/li">https://developer.mozilla.org/en/docs/Web/HTML/Element/li</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="abbr">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/abbr">&lt;abbr&gt;</a></h2>
+				<p>The HTML <code>&lt;abbr&gt;</code> element (or HTML Abbreviation Element) represents an abbreviation and optionally provides a full description for it. If present, the title attribute must contain this full description and nothing else.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/abbr">https://developer.mozilla.org/en/docs/Web/HTML/Element/abbr</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="cite">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/cite">&lt;cite&gt;</a></h2>
+				<p>The HTML Citation Element (<code>&lt;cite&gt;</code>) represents a reference to a creative work. It must include the title of a work or a URL reference, which may be in an abbreviated form according to the conventions used for the addition of citation metadata.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/cite">https://developer.mozilla.org/en/docs/Web/HTML/Element/cite</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="i">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/i">&lt;i&gt;</a></h2>
+				<p>The HTML <code>&lt;i&gt;</code> Element represents a range of text that is set off from the normal text for some reason, for example, technical terms, foreign language phrases, or fictional character thoughts. It is typically displayed in italic type.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/i">https://developer.mozilla.org/en/docs/Web/HTML/Element/i</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="rt">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/rt">&lt;rt&gt;</a></h2>
+				<p>The HTML <code>&lt;rt&gt;</code> Element embraces pronunciation of characters presented in a ruby annotations, which are used to describe the pronunciation of East Asian characters. This element is always used inside a <code>&lt;ruby&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/rt">https://developer.mozilla.org/en/docs/Web/HTML/Element/rt</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="small">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/small">&lt;small&gt;</a></h2>
+				<p>The HTML Small Element (<code>&lt;small&gt;</code>) makes the text font size one size smaller (for example, from large to medium, or from small to x-small) down to the browser's minimum font size.  In HTML5, this element is repurposed to represent side-comments and small print, including copyright and legal text, independent of its styled presentation.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/small">https://developer.mozilla.org/en/docs/Web/HTML/Element/small</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="var">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/var">&lt;var&gt;</a></h2>
+				<p>The HTML Variable Element (<code>&lt;var&gt;</code>) represents a variable in a mathematical expression or a programming context.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/var">https://developer.mozilla.org/en/docs/Web/HTML/Element/var</a></p>
+			</div>
+		  <div class="description group-embedded" id="embed">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/embed">&lt;embed&gt;</a></h2>
+				<p>The HTML <code>&lt;embed&gt;</code> Element represents an integration point for an external application or interactive content (in other words, a plug-in).</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/embed">https://developer.mozilla.org/en/docs/Web/HTML/Element/embed</a></p>
+			</div>
+		  <div class="description group-edits" id="del">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/del">&lt;del&gt;</a></h2>
+				<p>The HTML Deleted Text Element (<code>&lt;del&gt;</code>) represents a range of text that has been deleted from a document. This element is often (but need not be) rendered with strike-through text.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/del">https://developer.mozilla.org/en/docs/Web/HTML/Element/del</a></p>
+			</div>
+		  <div class="description group-table" id="td">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/td">&lt;td&gt;</a></h2>
+				<p>The Table cell HTML element (<code>&lt;td&gt;</code>) defines a cell of a table that contains data. It participates in the table model.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/td">https://developer.mozilla.org/en/docs/Web/HTML/Element/td</a></p>
+			</div>
+		  <div class="description group-forms" id="fieldset">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/fieldset">&lt;fieldset&gt;</a></h2>
+				<p>The HTML <code>&lt;fieldset&gt;</code> element is used to group several controls as well as labels (<code>&lt;label&gt;</code>) within a web form.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/fieldset">https://developer.mozilla.org/en/docs/Web/HTML/Element/fieldset</a></p>
+			</div>
+		  <div class="description group-forms" id="optgroup">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/optgroup">&lt;optgroup&gt;</a></h2>
+				<p>In a Web form, the HTML <code>&lt;optgroup&gt;</code> element  creates a grouping of options within a <code>&lt;select&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/optgroup">https://developer.mozilla.org/en/docs/Web/HTML/Element/optgroup</a></p>
+			</div>
+		  <div class="description group-interactive" id="menuitem">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/menuitem">&lt;menuitem&gt;</a></h2>
+				<p>The HTML <code>&lt;menuitem&gt;</code> element represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/menuitem">https://developer.mozilla.org/en/docs/Web/HTML/Element/menuitem</a></p>
+			</div>
+		  <div class="description group-sectioning" id="footer">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/footer">&lt;footer&gt;</a></h2>
+				<p>The HTML <code>&lt;footer&gt;</code> element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/footer">https://developer.mozilla.org/en/docs/Web/HTML/Element/footer</a></p>
+			</div>
+		  <div class="description group-text-content" id="dl">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dl">&lt;dl&gt;</a></h2>
+				<p>The HTML <code>&lt;dl&gt;</code> element (or HTML Description List Element) encloses a list of pairs of terms and descriptions. Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dl">https://developer.mozilla.org/en/docs/Web/HTML/Element/dl</a></p>
+			</div>
+		  <div class="description group-text-content" id="main">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/main">&lt;main&gt;</a></h2>
+				<p>The HTML <code>&lt;main&gt;</code> element represents the main content of  the <code>&lt;body&gt;</code> of a document or application. The main content area consists of content that is directly related to, or expands upon the central topic of a document or the central functionality of an application. This content should be unique to the document, excluding any content that is repeated across a set of documents such as sidebars, navigation links, copyright information, site logos, and search forms (unless the document's main function is as a search form).</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/main">https://developer.mozilla.org/en/docs/Web/HTML/Element/main</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="b">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/b">&lt;b&gt;</a></h2>
+				<p>The HTML <code>&lt;b&gt;</code> Element represents a span of text stylistically different from normal text, without conveying any special importance or relevance. It is typically used for keywords in a summary, product names in a review, or other spans of text whose typical presentation would be boldfaced. Another example of its use is to mark the lead sentence of each paragraph of an article.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/b">https://developer.mozilla.org/en/docs/Web/HTML/Element/b</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="code">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/code">&lt;code&gt;</a></h2>
+				<p>The HTML Code Element <code>&lt;code&gt;</code> represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/code">https://developer.mozilla.org/en/docs/Web/HTML/Element/code</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="kbd">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/kbd">&lt;kbd&gt;</a></h2>
+				<p>The HTML Keyboard Input Element (<code>&lt;kbd&gt;</code>) represents user input and produces an inline element displayed in the browser's default monospace font.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/kbd">https://developer.mozilla.org/en/docs/Web/HTML/Element/kbd</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="rtc">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/rtc">&lt;rtc&gt;</a></h2>
+				<p>The HTML <code>&lt;rtc&gt;</code> Element embraces semantic annotations of characters presented in a ruby of <code>&lt;rb&gt;</code> elements used inside of <code>&lt;ruby&gt;</code> element. <code>&lt;rb&gt;</code> elements can have both pronunciation (<code>&lt;rt&gt;</code>) and semantic (<code>&lt;rtc&gt;</code>) annotations.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/rtc">https://developer.mozilla.org/en/docs/Web/HTML/Element/rtc</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="span">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/span">&lt;span&gt;</a></h2>
+				<p>The HTML <code>&lt;span&gt;</code> element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element is appropriate. <code>&lt;span&gt;</code> is very much like a <code>&lt;div&gt;</code> element, but <code>&lt;div&gt;</code> is a block-level element whereas a <code>&lt;span&gt;</code> is an inline element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/span">https://developer.mozilla.org/en/docs/Web/HTML/Element/span</a></p>
+			</div>
+		  <div class="description group-text-semantics" id="wbr">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/wbr">&lt;wbr&gt;</a></h2>
+				<p>The HTML element word break opportunity <code>&lt;wbr&gt;</code> represents a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/wbr">https://developer.mozilla.org/en/docs/Web/HTML/Element/wbr</a></p>
+			</div>
+		  <div class="description group-embedded" id="object">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/object">&lt;object&gt;</a></h2>
+				<p>The HTML Embedded Object Element (<code>&lt;object&gt;</code>) represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/object">https://developer.mozilla.org/en/docs/Web/HTML/Element/object</a></p>
+			</div>
+		  <div class="description group-edits" id="ins">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ins">&lt;ins&gt;</a></h2>
+				<p>The HTML <code>&lt;ins&gt;</code> Element (or HTML Inserted Text) HTML represents a range of text that has been added to a document.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ins">https://developer.mozilla.org/en/docs/Web/HTML/Element/ins</a></p>
+			</div>
+		  <div class="description group-table" id="tfoot">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/tfoot">&lt;tfoot&gt;</a></h2>
+				<p>The HTML Table Foot Element (<code>&lt;tfoot&gt;</code>) defines a set of rows summarizing the columns of the table.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/tfoot">https://developer.mozilla.org/en/docs/Web/HTML/Element/tfoot</a></p>
+			</div>
+		  <div class="description group-forms" id="form">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/form">&lt;form&gt;</a></h2>
+				<p>The HTML <code>&lt;form&gt;</code> element represents a document section that contains interactive controls to submit information to a web server.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/form">https://developer.mozilla.org/en/docs/Web/HTML/Element/form</a></p>
+			</div>
+		  <div class="description group-forms" id="option">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/option">&lt;option&gt;</a></h2>
+				<p>In a Web form, the HTML <code>&lt;option&gt;</code> element is used to create a control representing an item within a <code>&lt;select&gt;</code>, an <code>&lt;optgroup&gt;</code> or a <code>&lt;datalist&gt;</code> HTML5 element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/option">https://developer.mozilla.org/en/docs/Web/HTML/Element/option</a></p>
+			</div>
+		  <div class="description group-interactive" id="summary">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/summary">&lt;summary&gt;</a></h2>
+				<p>The HTML summary element (<code>&lt;summary&gt;</code>) is used as a summary, caption, or legend for the content of a <code>&lt;details&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/summary">https://developer.mozilla.org/en/docs/Web/HTML/Element/summary</a></p>
+			</div>
+		  <div class="description group-sectioning" id="header">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/header">&lt;header&gt;</a></h2>
+				<p>The HTML <code>&lt;header&gt;</code> element represents a group of introductory or navigational aids. It may contain some heading elements but also other elements like a logo, wrapped section's header, a search form, and so on.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/header">https://developer.mozilla.org/en/docs/Web/HTML/Element/header</a></p>
+			</div>
+		  <div class="description group-text-content" id="dt">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dt">&lt;dt&gt;</a></h2>
+				<p>The HTML <code>&lt;dt&gt;</code> element (or HTML Definition Term Element) identifies a term in a definition list. This element can occur only as a child element of a <code>&lt;dl&gt;</code>. It is usually followed by a <code>&lt;dd&gt;</code> element; however, multiple <code>&lt;dt&gt;</code> elements in a row indicate several terms that are all defined by the immediate next <code>&lt;dd&gt;</code> element.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/dt">https://developer.mozilla.org/en/docs/Web/HTML/Element/dt</a></p>
+			</div>
+		  <div class="description group-text-content" id="ol">
+				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ol">&lt;ol&gt;</a></h2>
+				<p>The HTML <code>&lt;ol&gt;</code> Element (or HTML Ordered List Element) represents an ordered list of items. Typically, ordered-list items are displayed with a preceding numbering, which can be of any form, like numerals, letters or Romans numerals or even simple bullets. This numbered style is not defined in the HTML description of the page, but in its associated CSS, using the list-style-type property.</p>
+				<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/ol">https://developer.mozilla.org/en/docs/Web/HTML/Element/ol</a></p>
+			</div>
+		<div class="description  group-web-components" id="content">
+			<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/content">&lt;content&gt;</a></h2>
+			<p>The HTML <code>&lt;content&gt;</code> element is used inside of Shadow DOM as an insertion point. It is not intended to be used in ordinary HTML. It is used with Web Components.</p>
+			<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/content">https://developer.mozilla.org/en/docs/Web/HTML/Element/content</a></p>
+		</div>
+		<div class="description  group-web-components" id="element">
+			<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/element">&lt;element&gt;</a></h2>
+			<p>The HTML <code>&lt;element&gt;</code> element is used to define new custom DOM elements.</p>
+			<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/element">https://developer.mozilla.org/en/docs/Web/HTML/Element/element</a></p>
+		</div>
+		<div class="description  group-web-components" id="shadow">
+			<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/shadow">&lt;shadow&gt;</a></h2>
+			<p>The HTML <code>&lt;shadow&gt;</code> element is used as a shadow DOM insertion point. You might use it if you have created multiple shadow roots under a shadow host. It is not useful in ordinary HTML. It is used with Web Components.</p>
+			<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/shadow">https://developer.mozilla.org/en/docs/Web/HTML/Element/shadow</a></p>
+		</div>
+		<div class="description  group-web-components" id="template">
+			<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/template">&lt;template&gt;</a></h2>
+			<p>The HTML template element <code>&lt;template&gt;</code> is a mechanism for holding client-side content that is not to be rendered when a page is loaded but may subsequently be instantiated during runtime using JavaScript. </p>
+			<p><a class="moz-link" href="https://developer.mozilla.org/en/docs/Web/HTML/Element/template">https://developer.mozilla.org/en/docs/Web/HTML/Element/template</a></p>
+		</div>
+</div>
+
+		</main>
+		<script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		if (document.location.hostname === "madebymike.com.au") {
+		  ga('create', 'UA-42027047-2', 'auto');
+		  ga('send', 'pageview');
+		}
+		</script>
+	</body>
 </html>

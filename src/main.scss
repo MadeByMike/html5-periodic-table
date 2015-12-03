@@ -1,0 +1,174 @@
+
+@mixin fluid-type($properties, $min-vw, $max-vw, $min-value, $max-value) {
+  & {
+    @each $property in $properties {
+      #{$property}: $min-value;
+    }
+
+    @media screen and (min-width: $min-vw) {
+      @each $property in $properties {
+        #{$property}: calc(#{$min-value} + #{strip-unit($max-value - $min-value)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+    }
+
+    @media screen and (min-width: $max-vw) {
+      @each $property in $properties {
+        #{$property}: $max-value;
+      }
+    }
+  }
+}
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+$text-color: black;
+$background: rgb(120,120,120);
+$base-color: #D48489;
+$link-color: #3C4C88;
+
+html{
+	background: $background; /* Old browsers */
+	background: radial-gradient(ellipse at center,  darken($background, 20%)  0%, $background 100%);
+	background-size: cover;
+  height: 100%;
+  font-family:  Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+	width: 90%;
+	width: 90vw;
+	margin: 1vh auto;
+	color: $text-color;
+
+}
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #FFF;
+}
+.elements {
+  @include fluid-type(font-size, 600px, 1920px, 10px, 18px);
+}
+
+.element{
+	display: none;
+}
+.key{ display: none;}
+@media screen and (min-width: 600px) {
+
+	.row{
+		display: flex;
+		text-align: center;
+		height: 6vmin;
+		justify-content: space-around;
+	}
+	.f-block .row{
+		justify-content: flex-end;
+	}
+	.element{
+		display: flex;
+		font-weight: bold;
+		align-items: center;
+		justify-content: center;
+		flex: 6vw 0 0;
+		color: $text-color;
+    box-sizing: border-box;
+		border-radius: 3px;
+    margin: 1px;
+		text-decoration: none;
+	}
+	.description {
+		display: none;
+	}
+	.description:target {
+		display: block;
+	}
+
+  .key {
+    display: block;
+  	padding: 0;
+    width: 60%;
+    max-width: 650px;
+  	list-style-type: none;
+    color: #fff;
+    line-height: 1.8;
+    font-weight: normal;
+  }
+  .key li {
+  	display: inline-block;
+  	margin: 0 .2rem;
+    position: relative;
+    padding-left: 20px;
+  }
+
+	.key li:before{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translate(0, -50%);
+		width: 16px;
+		height: 16px;
+	}
+
+}
+
+.description {
+	padding: 1em;
+	margin: 2em 0;
+	text-overflow: ellipsis;
+	h2{
+		margin: 0;
+	}
+	a{ color: darken($link-color, 20%); text-decoration: none }
+	a:visited { color: $link-color; }
+	a:hover,a:focus { color: $link-color; text-decoration: underline; }
+	.moz-link{position: relative; padding-left: 24px;}
+	.moz-link:before{
+		content: '';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		background: url('moz.png');
+		transform: translate(0, -50%);
+		width: 16px;
+		height: 16px;
+
+	}
+
+}
+
+
+$groups: (
+	base: adjust-hue($base-color, 0%),
+	metadata: adjust-hue($base-color, 15%),
+	sectioning: adjust-hue($base-color, 30%),
+	text-content: adjust-hue($base-color, 45%),
+	text-semantics:adjust-hue($base-color, 60%),
+	media: adjust-hue($base-color, 75%),
+	embedded: adjust-hue($base-color, 90%),
+	script: adjust-hue($base-color, 105%),
+	edits: adjust-hue($base-color, 120%),
+	table: adjust-hue($base-color, 135%),
+	forms: adjust-hue($base-color, 150%),
+	interactive: adjust-hue($base-color, 165%),
+	web-components: adjust-hue($base-color, 180%)
+);
+
+@each $group, $color in $groups {
+	.element.group-#{$group}{
+		background-color: $color;
+		&:hover{ background-color: lighten($color,10%);}
+	}
+	.description.group-#{$group}{
+		background-color: rgba(lighten($color,10%),.5);
+		&:hover{ background-color: rgba($color,.8);}
+	}
+  .key li.group-#{$group}:before{
+		background-color: $color;
+  }
+}

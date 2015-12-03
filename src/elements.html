@@ -1,0 +1,41 @@
+<div class="elements">
+{{#each elements}}
+	<div class="row">
+	{{#each .}}
+	  <a href="#{{tag}}" class="element{{#if group}} group-{{group}}{{/if}}"><span>{{tag}}</span></a>
+	{{/each}}
+	</div>
+{{/each}}
+</div>
+<div class="f-block elements">
+	<div class="row">
+	{{#each fblock}}
+	  <a href="#{{tag}}" class="element{{#if group}} group-{{group}}{{/if}}"><span>{{tag}}</span></a>
+	{{/each}}
+	</div>
+</div>
+<ul class="key">
+{{#each keys}}
+	<li class="group-{{.}}">{{{.}}}</li>
+{{/each}}
+</ul>
+<div class="descriptions">
+	{{#each elements}}
+		{{#each .}}
+			{{#if group}}
+		  <div class="description group-{{group}}" id="{{tag}}">
+				<h2><a href="{{url}}">&lt;{{tag}}&gt;</a></h2>
+				<p>{{{description}}}</p>
+				<p><a class="moz-link" href="{{url}}">{{{url}}}</a></p>
+			</div>
+			{{/if}}
+		{{/each}}
+	{{/each}}
+	{{#each fblock}}
+		<div class="description  group-{{group}}" id="{{tag}}">
+			<h2><a href="{{url}}">&lt;{{tag}}&gt;</a></h2>
+			<p>{{{description}}}</p>
+			<p><a class="moz-link" href="{{url}}">{{{url}}}</a></p>
+		</div>
+	{{/each}}
+</div>

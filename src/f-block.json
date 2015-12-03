@@ -1,0 +1,26 @@
+[
+  {
+    "tag": "content",
+    "group": "web-components",
+    "url": "https://developer.mozilla.org/en/docs/Web/HTML/Element/content",
+    "description": "The HTML <code>&lt;content&gt;</code> element is used inside of Shadow DOM as an insertion point. It is not intended to be used in ordinary HTML. It is used with Web Components."
+  },
+  {
+    "tag": "element",
+    "group": "web-components",
+    "url": "https://developer.mozilla.org/en/docs/Web/HTML/Element/element",
+    "description": "The HTML <code>&lt;element&gt;</code> element is used to define new custom DOM elements."
+  },
+  {
+    "tag": "shadow",
+    "group": "web-components",
+    "url": "https://developer.mozilla.org/en/docs/Web/HTML/Element/shadow",
+    "description": "The HTML <code>&lt;shadow&gt;</code> element is used as a shadow DOM insertion point. You might use it if you have created multiple shadow roots under a shadow host. It is not useful in ordinary HTML. It is used with Web Components."
+  },
+  {
+    "tag": "template",
+    "group": "web-components",
+    "url": "https://developer.mozilla.org/en/docs/Web/HTML/Element/template",
+    "description": "The HTML template element <code>&lt;template&gt;</code> is a mechanism for holding client-side content that is not to be rendered when a page is loaded but may subsequently be instantiated during runtime using JavaScript. "
+  }
+]
