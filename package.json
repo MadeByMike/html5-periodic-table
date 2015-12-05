@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "A just for fun periodic table of HTML elements",
   "scripts": {
-    "layout": "js/layout.js"
+    "start": "npm run build",
+    "build": "node ./index.js"
   },
   "author": "Mike Riethmuller",
   "license": "none",

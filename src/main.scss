@@ -101,6 +101,7 @@ h1 {
   	margin: 0 .2rem;
     position: relative;
     padding-left: 20px;
+    cursor: pointer;
   }
 
 	.key li:before{
@@ -137,11 +138,9 @@ h1 {
 		transform: translate(0, -50%);
 		width: 16px;
 		height: 16px;
-
 	}
 
 }
-
 
 $groups: (
 	base: adjust-hue($base-color, 0%),
@@ -170,5 +169,11 @@ $groups: (
 	}
   .key li.group-#{$group}:before{
 		background-color: $color;
+  }
+  .hover-group-#{$group} .element {
+    opacity: .5;
+  }
+  .hover-group-#{$group} .element.group-#{$group} {
+    opacity: 1;
   }
 }

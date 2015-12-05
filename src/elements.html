@@ -2,7 +2,11 @@
 {{#each elements}}
 	<div class="row">
 	{{#each .}}
-	  <a href="#{{tag}}" class="element{{#if group}} group-{{group}}{{/if}}"><span>{{tag}}</span></a>
+	  {{#if tag}}
+		<a href="#{{tag}}" class="element group-{{group}}"><span>{{tag}}</span></a>
+	  {{else}}
+		<div class="element empty-element"></div>
+	  {{/if}}
 	{{/each}}
 	</div>
 {{/each}}
