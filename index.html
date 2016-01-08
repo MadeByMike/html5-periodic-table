@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+        <title>Periodic Table of HTML elements</title>
 		<style>html {
   background: #787878;
   /* Old browsers */
@@ -98,18 +99,11 @@ h1 {
     color: #3C4C88;
     text-decoration: underline; }
   .description .moz-link {
+    padding-left: 24px;
     position: relative;
-    padding-left: 24px; }
-  .description .moz-link:before {
-    content: '';
     display: block;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    background: url("moz.png");
-    transform: translate(0, -50%);
-    width: 16px;
-    height: 16px; }
+    background: url("moz.png") no-repeat left center;
+    word-break: break-word; }
 
 .element.group-base {
   background-color: #d48489; }
@@ -525,6 +519,7 @@ h1 {
 	  <a href="#template" class="element group-web-components"><span>template</span></a>
 	</div>
 </div>
+
 <ul class="key">
 	<li class="group-base">base</li>
 	<li class="group-metadata">metadata</li>
@@ -540,6 +535,7 @@ h1 {
 	<li class="group-interactive">interactive</li>
 	<li class="group-web-components">web-components</li>
 </ul>
+
 <div class="descriptions">
 		  <div class="description group-base" id="html">
 				<h2><a href="https://developer.mozilla.org/en/docs/Web/HTML/Element/html">&lt;html&gt;</a></h2>
