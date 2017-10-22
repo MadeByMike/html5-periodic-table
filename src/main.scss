@@ -124,20 +124,15 @@ h1 {
 	h2{
 		margin: 0;
 	}
-	a{ color: darken($link-color, 20%); text-decoration: none }
+	a{ color: darken($link-color, 20%); text-decoration: none; }
 	a:visited { color: $link-color; }
 	a:hover,a:focus { color: $link-color; text-decoration: underline; }
-	.moz-link{position: relative; padding-left: 24px;}
-	.moz-link:before{
-		content: '';
+	.moz-link{
+        padding-left: 24px;
+        position: relative;
 		display: block;
-		position: absolute;
-		left: 0;
-		top: 50%;
-		background: url('moz.png');
-		transform: translate(0, -50%);
-		width: 16px;
-		height: 16px;
+		background: url('moz.png') no-repeat left center;
+        word-break: break-word;
 	}
 
 }
