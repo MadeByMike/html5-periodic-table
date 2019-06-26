@@ -525,12 +525,6 @@
       "description": "The HTML element <code>&lt;input&gt;</code> is used to create interactive controls for web-based forms in order to accept data from the user. How an <code>&lt;input&gt;</code> works varies considerably depending on the value of its type attribute."
     },
     {
-      "tag": "keygen",
-      "group": "forms",
-      "url": "https://developer.mozilla.org/en/docs/Web/HTML/Element/keygen",
-      "description": "The HTML <code>&lt;keygen&gt;</code> element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the <code>&lt;keygen&gt;</code> element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate."
-    },
-    {
       "tag": "label",
       "group": "forms",
       "url": "https://developer.mozilla.org/en/docs/Web/HTML/Element/label",
@@ -597,12 +591,6 @@
       "group": "interactive",
       "url": "https://developer.mozilla.org/en/docs/Web/HTML/Element/menu",
       "description": "The HTML <code>&lt;menu&gt;</code> element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked."
-    },
-    {
-      "tag": "menuitem",
-      "group": "interactive",
-      "url": "https://developer.mozilla.org/en/docs/Web/HTML/Element/menuitem",
-      "description": "The HTML <code>&lt;menuitem&gt;</code> element represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button."
     },
     {
       "tag": "summary",
