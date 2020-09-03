@@ -10,7 +10,7 @@
   "license": "none",
   "dependencies": {
     "handlebars": "^4.0.5",
-    "node-sass": "^3.4.2",
+    "node-sass": "^4.14.1",
     "periodic-layout": "0.0.1"
   }
 }
